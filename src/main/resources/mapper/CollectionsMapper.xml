@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.soft1611.jianshu.dao.CollectionsMapper">
+  <resultMap id="BaseResultMap" type="com.soft1611.jianshu.model.Collections">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="collectionId" jdbcType="INTEGER" property="collectionid" />
+    <result column="articleCount" jdbcType="INTEGER" property="articlecount" />
+    <result column="collectionName" jdbcType="VARCHAR" property="collectionname" />
+    <result column="collectionUrl" jdbcType="VARCHAR" property="collectionurl" />
+    <result column="fansCount" jdbcType="INTEGER" property="fanscount" />
+    <result column="summary" jdbcType="VARCHAR" property="summary" />
+  </resultMap>
+</mapper>

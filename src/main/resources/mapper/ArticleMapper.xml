@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.soft1611.jianshu.dao.ArticleMapper">
+  <resultMap id="BaseResultMap" type="com.soft1611.jianshu.model.Article">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="articleId" jdbcType="INTEGER" property="articleid" />
+    <result column="comments" jdbcType="INTEGER" property="comments" />
+    <result column="likes" jdbcType="INTEGER" property="likes" />
+    <result column="summary" jdbcType="VARCHAR" property="summary" />
+    <result column="thumbnail" jdbcType="VARCHAR" property="thumbnail" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="writeTime" jdbcType="DATE" property="writetime" />
+    <result column="userId" jdbcType="INTEGER" property="userid" />
+  </resultMap>
+</mapper>

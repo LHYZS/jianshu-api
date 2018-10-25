@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.soft1611.jianshu.dao.CommentMapper">
+  <resultMap id="BaseResultMap" type="com.soft1611.jianshu.model.Comment">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="commentId" jdbcType="INTEGER" property="commentid" />
+    <result column="articleId" jdbcType="INTEGER" property="articleid" />
+    <result column="commentTime" jdbcType="DATE" property="commenttime" />
+    <result column="content" jdbcType="VARCHAR" property="content" />
+    <result column="userId" jdbcType="INTEGER" property="userid" />
+  </resultMap>
+</mapper>
