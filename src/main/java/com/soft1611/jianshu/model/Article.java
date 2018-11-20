@@ -9,7 +9,7 @@ public class Article {
      */
     @Id
     @Column(name = "articleId")
-    private Integer articleid;
+    private Integer articleId;
 
     /**
      * 评论数
@@ -40,155 +40,91 @@ public class Article {
      * 发布时间
      */
     @Column(name = "writeTime")
-    private Date writetime;
+    private Date writeTime;
 
     /**
      * 作者id
      */
     @Column(name = "userId")
-    private Integer userid;
+    private Integer userId;
 
-    /**
-     * 获取文章id
-     *
-     * @return articleId - 文章id
-     */
-    public Integer getArticleid() {
-        return articleid;
+    public
+    Integer getArticleId() {
+        return articleId;
     }
 
-    /**
-     * 设置文章id
-     *
-     * @param articleid 文章id
-     */
-    public void setArticleid(Integer articleid) {
-        this.articleid = articleid;
+    public
+    void setArticleId(Integer articleId) {
+        this.articleId = articleId;
     }
 
-    /**
-     * 获取评论数
-     *
-     * @return comments - 评论数
-     */
-    public Integer getComments() {
+    public
+    Integer getComments() {
         return comments;
     }
 
-    /**
-     * 设置评论数
-     *
-     * @param comments 评论数
-     */
-    public void setComments(Integer comments) {
+    public
+    void setComments(Integer comments) {
         this.comments = comments;
     }
 
-    /**
-     * 获取喜欢数
-     *
-     * @return likes - 喜欢数
-     */
-    public Integer getLikes() {
+    public
+    Integer getLikes() {
         return likes;
     }
 
-    /**
-     * 设置喜欢数
-     *
-     * @param likes 喜欢数
-     */
-    public void setLikes(Integer likes) {
+    public
+    void setLikes(Integer likes) {
         this.likes = likes;
     }
 
-    /**
-     * 获取内容
-     *
-     * @return summary - 内容
-     */
-    public String getSummary() {
+    public
+    String getSummary() {
         return summary;
     }
 
-    /**
-     * 设置内容
-     *
-     * @param summary 内容
-     */
-    public void setSummary(String summary) {
+    public
+    void setSummary(String summary) {
         this.summary = summary;
     }
 
-    /**
-     * 获取头像
-     *
-     * @return thumbnail - 头像
-     */
-    public String getThumbnail() {
+    public
+    String getThumbnail() {
         return thumbnail;
     }
 
-    /**
-     * 设置头像
-     *
-     * @param thumbnail 头像
-     */
-    public void setThumbnail(String thumbnail) {
+    public
+    void setThumbnail(String thumbnail) {
         this.thumbnail = thumbnail;
     }
 
-    /**
-     * 获取标题
-     *
-     * @return title - 标题
-     */
-    public String getTitle() {
+    public
+    String getTitle() {
         return title;
     }
 
-    /**
-     * 设置标题
-     *
-     * @param title 标题
-     */
-    public void setTitle(String title) {
+    public
+    void setTitle(String title) {
         this.title = title;
     }
 
-    /**
-     * 获取发布时间
-     *
-     * @return writeTime - 发布时间
-     */
-    public Date getWritetime() {
-        return writetime;
+    public
+    Date getWriteTime() {
+        return writeTime;
     }
 
-    /**
-     * 设置发布时间
-     *
-     * @param writetime 发布时间
-     */
-    public void setWritetime(Date writetime) {
-        this.writetime = writetime;
+    public
+    void setWriteTime(Date writeTime) {
+        this.writeTime = writeTime;
     }
 
-    /**
-     * 获取作者id
-     *
-     * @return userId - 作者id
-     */
-    public Integer getUserid() {
-        return userid;
+    public
+    Integer getUserId() {
+        return userId;
     }
 
-    /**
-     * 设置作者id
-     *
-     * @param userid 作者id
-     */
-    public void setUserid(Integer userid) {
-        this.userid = userid;
+    public
+    void setUserId(Integer userId) {
+        this.userId = userId;
     }
 }

@@ -18,5 +18,4 @@ import javax.annotation.Resource;
 public class ArticleServiceImpl extends AbstractService<Article> implements ArticleService {
     @Resource
     private ArticleMapper articleMapper;
-
 }

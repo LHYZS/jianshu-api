@@ -8,142 +8,94 @@ public class Collections {
      */
     @Id
     @Column(name = "collectionId")
-    private Integer collectionid;
+    private Integer collectionId;
 
     /**
      * 文章个数
      */
     @Column(name = "articleCount")
-    private Integer articlecount;
+    private Integer articleCount;
 
     /**
      * 关注名字
      */
     @Column(name = "collectionName")
-    private String collectionname;
+    private String collectionName;
 
     /**
      * 关注头像
      */
     @Column(name = "collectionUrl")
-    private String collectionurl;
+    private String collectionUrl;
 
     /**
      * 粉丝个数
      */
     @Column(name = "fansCount")
-    private Integer fanscount;
+    private Integer fansCount;
 
     /**
      * 描述
      */
     private String summary;
 
-    /**
-     * 获取关注id
-     *
-     * @return collectionId - 关注id
-     */
-    public Integer getCollectionid() {
-        return collectionid;
+    public
+    Integer getCollectionId() {
+        return collectionId;
     }
 
-    /**
-     * 设置关注id
-     *
-     * @param collectionid 关注id
-     */
-    public void setCollectionid(Integer collectionid) {
-        this.collectionid = collectionid;
+    public
+    void setCollectionId(Integer collectionId) {
+        this.collectionId = collectionId;
     }
 
-    /**
-     * 获取文章个数
-     *
-     * @return articleCount - 文章个数
-     */
-    public Integer getArticlecount() {
-        return articlecount;
+    public
+    Integer getArticleCount() {
+        return articleCount;
     }
 
-    /**
-     * 设置文章个数
-     *
-     * @param articlecount 文章个数
-     */
-    public void setArticlecount(Integer articlecount) {
-        this.articlecount = articlecount;
+    public
+    void setArticleCount(Integer articleCount) {
+        this.articleCount = articleCount;
     }
 
-    /**
-     * 获取关注名字
-     *
-     * @return collectionName - 关注名字
-     */
-    public String getCollectionname() {
-        return collectionname;
+    public
+    String getCollectionName() {
+        return collectionName;
     }
 
-    /**
-     * 设置关注名字
-     *
-     * @param collectionname 关注名字
-     */
-    public void setCollectionname(String collectionname) {
-        this.collectionname = collectionname;
+    public
+    void setCollectionName(String collectionName) {
+        this.collectionName = collectionName;
     }
 
-    /**
-     * 获取关注头像
-     *
-     * @return collectionUrl - 关注头像
-     */
-    public String getCollectionurl() {
-        return collectionurl;
+    public
+    String getCollectionUrl() {
+        return collectionUrl;
     }
 
-    /**
-     * 设置关注头像
-     *
-     * @param collectionurl 关注头像
-     */
-    public void setCollectionurl(String collectionurl) {
-        this.collectionurl = collectionurl;
+    public
+    void setCollectionUrl(String collectionUrl) {
+        this.collectionUrl = collectionUrl;
     }
 
-    /**
-     * 获取粉丝个数
-     *
-     * @return fansCount - 粉丝个数
-     */
-    public Integer getFanscount() {
-        return fanscount;
+    public
+    Integer getFansCount() {
+        return fansCount;
     }
 
-    /**
-     * 设置粉丝个数
-     *
-     * @param fanscount 粉丝个数
-     */
-    public void setFanscount(Integer fanscount) {
-        this.fanscount = fanscount;
+    public
+    void setFansCount(Integer fansCount) {
+        this.fansCount = fansCount;
     }
 
-    /**
-     * 获取描述
-     *
-     * @return summary - 描述
-     */
-    public String getSummary() {
+    public
+    String getSummary() {
         return summary;
     }
 
-    /**
-     * 设置描述
-     *
-     * @param summary 描述
-     */
-    public void setSummary(String summary) {
+    public
+    void setSummary(String summary) {
         this.summary = summary;
     }
 }
